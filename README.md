@@ -1,39 +1,39 @@
-<h1 align="center">Алексей Ткаченко</h1>
-<p align="center"><b>AI Product Engineer · ML / DS · Agentic Workflows</b><br>
-Архитектор → ML/DL → AI-продукты. Собираю AI-решения полного цикла: от боли и данных до метрик, продукта и инфраструктуры.</p>
+# Alexey Tkachenko
 
-<p align="center">
-<a href="https://archnorm.ru">🌐 archnorm.ru</a> ·
-<a href="https://alteralto.github.io">🗂 Портфолио</a> ·
-<a href="https://alteralto.github.io/ArchNorm-tech/">⚙️ Техвитрина</a> ·
-<a href="https://t.me/altarch">✈️ @altarch</a> ·
-✉️ xelartn75@gmail.com
-</p>
+**AI Engineer · Applied AI / LLM · AEC**
 
----
+I build AI systems for document-heavy, domain-specific work.
 
-### 🚀 ArchNorm — флагман
-**AI-нормоконтроль строительной документации.** Спрашиваешь по-человечески — получаешь ответ с проверяемой ссылкой на пункт СП/СНиП. Прозрачный RAG (BGE-M3 · ChromaDB · reranking · разрешение перекрёстных ссылок), агенты, VLM, два контура из одного кода (on-prem `llama.cpp` / облако Yandex Cloud), Docker + CI/CD, PII-редакция.
-**Метрики:** Hit@3 **94,7%** (n=132, 95% ДИ [89,4; 97,4]) · MRR 0,87 · NDCG 0,88. Честные абляции (cross-encoder отклонён по метрике).
-🔗 [Живое демо](https://archnorm.ru) — 10 вопросов без регистрации · [Техническая витрина](https://alteralto.github.io/ArchNorm-tech/) · пилот с первыми бюро (июль 2026)
+I started as an architect. That background still shapes how I engineer software: understand the workflow first, make outputs traceable, and ship something people can actually use.
 
-### 🧩 Другие проекты
-- **Cifrium ML** — прогноз оттока студентов LMS (ансамбль 3 веток, out-of-time валидация, churn recall 0,98). 🏆 **1 место** на хакатоне МФТИ (капитан). · [демо](https://cifrium-lms.onrender.com/landing/)
-- **AI Config Conflicts** — AI-агент на [SourceCraft](https://sourcecraft.dev/krivosheina-daryaa/ai-config-conflicts): авто-разрешение конфликтов YAML-конфигов между PR (СПб ИИ Чемп, ИТМО).
-- **VK Case Champ** — S-Commerce стратегия: EDA VK AdBlogger → сегментация → прогноз GMV +25–30% (solo).
-- **Melissa / NetTyan** — мультиагентный AI-VTuber (голос, Minecraft/Twitch, восприятие и действия); старт на МегаШколе ИТМО.
-- **Физтех.Решение** — пилот внедрения ИИ для нефтегаза (гибрид ML + GenAI, predictive maintenance, digital twins).
+Today I work on AI-assisted landscape design and review at **Derevo Park** and build **[ArchNorm](https://archnorm.ru)**, a B2B product for construction-document compliance. I am also pursuing a master's degree in Artificial Intelligence at **ITMO University's AI Talent Hub**.
 
-### 🛠 Стек
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/ML%2FDL-EE4C2C?logo=pytorch&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-BGE--M3-5E7C6E)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-vector%20search-6B7177)
-![LLM](https://img.shields.io/badge/LLM-llama.cpp%20%2F%20YandexGPT%20%2F%20GigaChat-A6553C)
-![Agents](https://img.shields.io/badge/Agents-multi--agent%20%2F%20MCP-2C3036)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Yandex Cloud](https://img.shields.io/badge/Yandex%20Cloud-deploy-FC3F1D)
+## Selected engineering work
 
-<p align="center"><i>Цель — AI Solutions Architect / Forward Deployed Engineer: превращаю сырую проблему в обучаемую, измеримую и развёрнутую систему.</i></p>
+### ArchNorm
+
+ArchNorm answers questions against construction regulations and points back to the source. I built it from problem discovery and system architecture through the Python/FastAPI backend, hybrid retrieval, document processing, evaluation, and local/on-prem deployment.
+
+The production code and regulatory corpus are private. The public preview shows the product without exposing customer data or the proprietary pipeline.
+
+[Product](https://archnorm.ru) · [Public preview](https://github.com/alteralto/ArchNorm-preview)
+
+### Explainable payment routing
+
+A deterministic routing engine that distributes payouts across providers under hard eligibility rules, capacity limits, conversion estimates, cost constraints, and fallback scenarios. Every decision is traceable.
+
+Implemented in Ruby 3.3 with the standard library only: 71 tests, 503 assertions, reproducible seeded runs, an interactive review stand, and documented trade-offs.
+
+[Repository](https://github.com/alteralto/payment-routing-engine) · [Live stand](https://a1b9f4d2.51-250-106-42.sslip.io/)
+
+### Reproducible ML service
+
+[Car Acceptability API](https://github.com/alteralto/car-acceptability-fastapi) is a compact example of a reproducible ML service: training script, saved metrics, FastAPI inference, tests, Docker, and a small browser UI.
+
+## Working with
+
+Python, FastAPI, RAG evaluation, Document AI, tool-using agents, guardrails, and local inference. For AEC workflows: Rhinoceros, Grasshopper, Revit, Archicad, and geospatial data.
+
+## Contact
+
+[Telegram](https://t.me/altarch) · [Email](mailto:xelartn75@gmail.com) · [Architecture portfolio](https://alteralto.github.io)
