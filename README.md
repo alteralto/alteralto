@@ -6,7 +6,7 @@ I build AI systems for document-heavy, domain-specific work.
 
 I started as an architect. That background still shapes how I engineer software: understand the workflow first, make outputs traceable, and ship something people can actually use.
 
-Today I work on AI-assisted landscape design and review at **Derevo Park** and build **[ArchNorm](https://archnorm.ru)**, a B2B product for construction-document compliance. I am also pursuing a master's degree in Artificial Intelligence at **ITMO University's AI Talent Hub**.
+Today I build **[ArchNorm](https://archnorm.ru)**, a B2B product for construction-document compliance, and work on AI for landscape and site design. I am also pursuing a master's degree in Artificial Intelligence at **ITMO University's AI Talent Hub**.
 
 ## Selected engineering work
 
