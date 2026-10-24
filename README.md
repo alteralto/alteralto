@@ -26,13 +26,28 @@ Implemented in Ruby 3.3 with the standard library only: 71 tests, 503 assertions
 
 [Repository](https://github.com/alteralto/payment-routing-engine) · [Live stand](https://a1b9f4d2.51-250-106-42.sslip.io/)
 
-### Reproducible ML service
+## Open source
 
-[Car Acceptability API](https://github.com/alteralto/car-acceptability-fastapi) is a compact example of a reproducible ML service: training script, saved metrics, FastAPI inference, tests, Docker, and a small browser UI.
+### VibeCADing
+
+An open lab for AI-native tools in architecture, 3D, games and creative work: a catalog of tools, discussions and critique, and contributions to the open projects people already use.
+
+[vibecading.io](https://vibecading.io) · [Catalog](https://github.com/vibecading/awesome-vibecading) · [Discussions](https://github.com/orgs/vibecading/discussions)
+
+### Contributions
+
+- **RustGIS**: geometric interval and standard deviation classes for graduated colours ([#805](https://github.com/opengeos/RustGIS/pull/805), merged); manual class breaks ([#822](https://github.com/opengeos/RustGIS/pull/822))
+- **BIMCraft**: Windows start fallback to DirectX 12 ([#63](https://github.com/IPedrax/BIMCraft/pull/63)); a Type Selector list that fits the window ([#67](https://github.com/IPedrax/BIMCraft/pull/67))
+- **build123d**: a regression test for STEP profiles placed in a sketch ([#1546](https://github.com/gumyr/build123d/pull/1546))
+- **RhinoAI** (McNeel): decimal tool parameters through the MCP router ([#207](https://github.com/mcneel/RhinoAI/pull/207))
+
+### Diskard
+
+A security testing toolkit for AI agents, built with a team for an agentic red-teaming hackathon. [Repository](https://github.com/outrun32/Diskard)
 
 ## Working with
 
-Python, FastAPI, RAG evaluation, Document AI, tool-using agents, guardrails, and local inference. For AEC workflows: Rhinoceros, Grasshopper, Revit, Archicad, and geospatial data.
+Python, Rust, Go, FastAPI, RAG evaluation, Document AI, tool-using agents, guardrails, and local inference. For AEC workflows: Rhinoceros, Grasshopper, Revit, Archicad, and geospatial data.
 
 ## Contact
 
